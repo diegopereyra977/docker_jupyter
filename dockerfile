@@ -19,7 +19,7 @@ RUN conda install -y jupyterlab
 RUN wget https://github.com/SpencerPark/IJava/releases/download/v1.2.0/ijava-1.2.0.zip
 RUN unzip ijava-1.2.0.zip
 RUN python install.py
-RUN pip install -y papermill
+RUN pip install papermill
 
 #RUN conda install -y -c conda-forge jupyterlab beakerx
 #RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
